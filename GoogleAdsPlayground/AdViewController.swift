@@ -37,11 +37,11 @@ final class AdViewController: UIViewController {
     
     
     private lazy var adView: GADBannerView = {
-        let v = GADBannerView(adSize: kGADAdSizeBanner)
+        let v = GADBannerView(adSize: kGADAdSizeFluid)
         v.delegate = self
         v.adSizeDelegate = self
         v.rootViewController = self
-        v.adUnitID = "ca-app-pub-3940256099942544/2934735716"
+        v.adUnitID = "/12930815/TILE1/RDC2/SRPLIST/SALE/DESK"
         v.bounds = CGRect(origin: .zero, size: CGSize(width: 320, height: 50))
         return v
     }()
@@ -55,9 +55,22 @@ final class AdViewController: UIViewController {
 
 private extension AdViewController {
     
-    var adRequest: GADRequest {
-        let request = GADRequest()
+    var adRequest: DFPRequest {
+        let request = DFPRequest()
         request.testDevices = [kGADSimulatorID]
+        
+        let zip = "90802"
+        var info: [String: String] = [:]
+        info["ZIPSRCH"] = zip
+        info["SRPZIP1"] = zip
+        info["JY"] = "5931abcd666b2c49ad00066c" // user ID
+        info["PLATFORM"] = "APP_PH"
+        request.customTargeting = info
+        
+        let extras = GADExtras()
+        extras.additionalParameters = ["POS": "TILE1"]
+        request.register(extras)
+        
         return request
     }
 }
