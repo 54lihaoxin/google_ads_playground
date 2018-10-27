@@ -1,0 +1,393 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C4CB058FA9F9931DB6AE71B /* Pods_GoogleAdsPlayground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1BD28EE89FBE03958405EA /* Pods_GoogleAdsPlayground.framework */; };
+		462FE92B2184A8F900126D69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FE92A2184A8F900126D69 /* AppDelegate.swift */; };
+		462FE9302184A8F900126D69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462FE92E2184A8F900126D69 /* Main.storyboard */; };
+		462FE9322184A8FC00126D69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462FE9312184A8FC00126D69 /* Assets.xcassets */; };
+		462FE9352184A8FC00126D69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462FE9332184A8FC00126D69 /* LaunchScreen.storyboard */; };
+		462FE93D2184A95C00126D69 /* AdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462FE93C2184A95C00126D69 /* AdViewController.swift */; };
+		462FE93F2184C5CE00126D69 /* PhoneLink.html in Resources */ = {isa = PBXBuildFile; fileRef = 462FE93E2184C5CE00126D69 /* PhoneLink.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462FE9272184A8F900126D69 /* GoogleAdsPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleAdsPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462FE92A2184A8F900126D69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462FE92F2184A8F900126D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		462FE9312184A8FC00126D69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		462FE9342184A8FC00126D69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		462FE9362184A8FC00126D69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462FE93C2184A95C00126D69 /* AdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdViewController.swift; sourceTree = "<group>"; };
+		462FE93E2184C5CE00126D69 /* PhoneLink.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = PhoneLink.html; sourceTree = "<group>"; };
+		7E1BD28EE89FBE03958405EA /* Pods_GoogleAdsPlayground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleAdsPlayground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B072D27A9C26C97C8A532D48 /* Pods-GoogleAdsPlayground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPlayground.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleAdsPlayground/Pods-GoogleAdsPlayground.release.xcconfig"; sourceTree = "<group>"; };
+		F39295DA9F6639D30517B95E /* Pods-GoogleAdsPlayground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleAdsPlayground.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleAdsPlayground/Pods-GoogleAdsPlayground.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462FE9242184A8F900126D69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C4CB058FA9F9931DB6AE71B /* Pods_GoogleAdsPlayground.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462FE91E2184A8F800126D69 = {
+			isa = PBXGroup;
+			children = (
+				462FE9292184A8F900126D69 /* GoogleAdsPlayground */,
+				462FE9282184A8F900126D69 /* Products */,
+				5EA88853E6D66A892742D307 /* Pods */,
+				C1B7BE130F3843A37C8F15D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		462FE9282184A8F900126D69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462FE9272184A8F900126D69 /* GoogleAdsPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462FE9292184A8F900126D69 /* GoogleAdsPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				462FE92A2184A8F900126D69 /* AppDelegate.swift */,
+				462FE93C2184A95C00126D69 /* AdViewController.swift */,
+				462FE92E2184A8F900126D69 /* Main.storyboard */,
+				462FE9312184A8FC00126D69 /* Assets.xcassets */,
+				462FE9332184A8FC00126D69 /* LaunchScreen.storyboard */,
+				462FE9362184A8FC00126D69 /* Info.plist */,
+				462FE93E2184C5CE00126D69 /* PhoneLink.html */,
+			);
+			path = GoogleAdsPlayground;
+			sourceTree = "<group>";
+		};
+		5EA88853E6D66A892742D307 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F39295DA9F6639D30517B95E /* Pods-GoogleAdsPlayground.debug.xcconfig */,
+				B072D27A9C26C97C8A532D48 /* Pods-GoogleAdsPlayground.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C1B7BE130F3843A37C8F15D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E1BD28EE89FBE03958405EA /* Pods_GoogleAdsPlayground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462FE9262184A8F900126D69 /* GoogleAdsPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462FE9392184A8FC00126D69 /* Build configuration list for PBXNativeTarget "GoogleAdsPlayground" */;
+			buildPhases = (
+				AF20E613539F14876EA3BFC3 /* [CP] Check Pods Manifest.lock */,
+				462FE9232184A8F900126D69 /* Sources */,
+				462FE9242184A8F900126D69 /* Frameworks */,
+				462FE9252184A8F900126D69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleAdsPlayground;
+			productName = GoogleAdsPlayground;
+			productReference = 462FE9272184A8F900126D69 /* GoogleAdsPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462FE91F2184A8F800126D69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Haoxin Li";
+				TargetAttributes = {
+					462FE9262184A8F900126D69 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 462FE9222184A8F800126D69 /* Build configuration list for PBXProject "GoogleAdsPlayground" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 462FE91E2184A8F800126D69;
+			productRefGroup = 462FE9282184A8F900126D69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462FE9262184A8F900126D69 /* GoogleAdsPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462FE9252184A8F900126D69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FE9352184A8FC00126D69 /* LaunchScreen.storyboard in Resources */,
+				462FE93F2184C5CE00126D69 /* PhoneLink.html in Resources */,
+				462FE9322184A8FC00126D69 /* Assets.xcassets in Resources */,
+				462FE9302184A8F900126D69 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AF20E613539F14876EA3BFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoogleAdsPlayground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462FE9232184A8F900126D69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462FE92B2184A8F900126D69 /* AppDelegate.swift in Sources */,
+				462FE93D2184A95C00126D69 /* AdViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462FE92E2184A8F900126D69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462FE92F2184A8F900126D69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		462FE9332184A8FC00126D69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462FE9342184A8FC00126D69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462FE9372184A8FC00126D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		462FE9382184A8FC00126D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462FE93A2184A8FC00126D69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39295DA9F6639D30517B95E /* Pods-GoogleAdsPlayground.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RFZ63C7NL;
+				INFOPLIST_FILE = GoogleAdsPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoxinli.GoogleAdsPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462FE93B2184A8FC00126D69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B072D27A9C26C97C8A532D48 /* Pods-GoogleAdsPlayground.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5RFZ63C7NL;
+				INFOPLIST_FILE = GoogleAdsPlayground/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haoxinli.GoogleAdsPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462FE9222184A8F800126D69 /* Build configuration list for PBXProject "GoogleAdsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462FE9372184A8FC00126D69 /* Debug */,
+				462FE9382184A8FC00126D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462FE9392184A8FC00126D69 /* Build configuration list for PBXNativeTarget "GoogleAdsPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462FE93A2184A8FC00126D69 /* Debug */,
+				462FE93B2184A8FC00126D69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462FE91F2184A8F800126D69 /* Project object */;
+}

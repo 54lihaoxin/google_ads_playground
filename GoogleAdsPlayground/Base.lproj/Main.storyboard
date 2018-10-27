@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Ad View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AdViewController" customModule="GoogleAdsPlayground" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wof-us-39k">
+                                <rect key="frame" x="12" y="334" width="351" height="100"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="vHC-as-aDc"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sds-eR-3CY">
+                                <rect key="frame" x="12" y="456" width="351" height="100"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="pK8-FY-x6t"/>
+                                </constraints>
+                            </webView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7j9-VO-oHY">
+                                <rect key="frame" x="12" y="32" width="351" height="280"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="M6n-2i-EwQ">
+                                        <rect key="frame" x="157" y="121.5" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12582143439999999" green="0.75727712560000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="M6n-2i-EwQ" firstAttribute="centerX" secondItem="7j9-VO-oHY" secondAttribute="centerX" id="Ej5-pc-DI5"/>
+                                    <constraint firstAttribute="height" constant="280" id="b1b-eH-fv5"/>
+                                    <constraint firstItem="M6n-2i-EwQ" firstAttribute="centerY" secondItem="7j9-VO-oHY" secondAttribute="centerY" id="vfd-0R-X5u"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7j9-VO-oHY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="1ER-Ca-uwQ"/>
+                            <constraint firstItem="Sds-eR-3CY" firstAttribute="top" secondItem="wof-us-39k" secondAttribute="bottom" constant="22" id="3C2-rG-Zgl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Sds-eR-3CY" secondAttribute="trailing" constant="12" id="77C-fr-IRh"/>
+                            <constraint firstItem="7j9-VO-oHY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="B12-v1-foj"/>
+                            <constraint firstItem="wof-us-39k" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="IKd-Sa-mNP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wof-us-39k" secondAttribute="trailing" constant="12" id="Sqo-0w-oOk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7j9-VO-oHY" secondAttribute="trailing" constant="12" id="cef-eC-Quy"/>
+                            <constraint firstItem="Sds-eR-3CY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="12" id="nyQ-yj-d3e"/>
+                            <constraint firstItem="wof-us-39k" firstAttribute="top" secondItem="7j9-VO-oHY" secondAttribute="bottom" constant="22" id="wgY-Sg-zjD"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="adContainer" destination="7j9-VO-oHY" id="HHw-dt-vRU"/>
+                        <outlet property="deprecatedWebView" destination="Sds-eR-3CY" id="wSA-cZ-lbe"/>
+                        <outlet property="webView" destination="wof-us-39k" id="VWl-t6-EG7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+</document>
